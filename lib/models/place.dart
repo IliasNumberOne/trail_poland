@@ -4,6 +4,7 @@ class Place {
   final String? title2;
   final String image;
   final String bigImage;
+  final String content;
   final int reviews;
   final double rate;
 
@@ -13,6 +14,7 @@ class Place {
     this.title2,
     required this.image,
     required this.bigImage,
+    required this.content,
     required this.reviews,
     required this.rate,
   });
